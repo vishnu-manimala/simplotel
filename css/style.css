@@ -327,6 +327,10 @@ p {
         margin-top: 10px;
         font-size: larger;
     }
+
+    a {
+        text-decoration: none;
+    }
     
     .second-section button {
         padding: 5px 5px;
