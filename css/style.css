@@ -316,7 +316,10 @@ p {
         text-align: center;
     }
     
-   
+    .column-1, .column-2, .column-3 img {
+        width: 500px;
+        height: 500px;
+    }
     h2 {
         margin-top: 20px;
         font-size: larger;
