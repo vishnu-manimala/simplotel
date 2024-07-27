@@ -221,17 +221,17 @@ body {
 .column-1 img{
     width: 300px;
     height: 300px;
-    object-fit: conatin;
+    object-fit: contain;
 }
 .column-2 img{
     width: 300px;
     height: 300px;
-    object-fit: conatin;
+    object-fit: contain;
 }
 .column-3 img{
     width: 300px;
     height: 300px;
-    object-fit: conatin;
+    object-fit: contain;
 }
 
 h2 {
