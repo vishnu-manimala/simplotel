@@ -218,6 +218,16 @@ body {
     text-align: right;
 }
 
+.column-1 img{
+    width: 300px;
+    height: 300px;
+    object-fit: conatin;
+}
+.column-2 img{
+    width: 300px;
+    height: 300px;
+    object-fit: conatin;
+}
 .column-1, .column-2, .column-3 img{
     width: 300px;
     height: 300px;
