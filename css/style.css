@@ -1,0 +1,337 @@
+.hero{
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 5px 5px;
+}
+.leftside {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.leftside img {
+    width: 50px;
+    height: 50px;
+}
+.centerside {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerside p {
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.rightside {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.rightside-first {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.rightside-first img {
+    width: 25px;
+    height: 25px;
+}
+.rightside-second {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.rightside-second img {
+    width: 25px;
+    height: 25px;
+}
+.nav-icon {
+    display: none;
+    width: 35px;
+    height: 35px;
+
+    position: absolute;
+    right: 2px;
+    top: 6px;
+    cursor: pointer;
+}
+.nav-icon img {
+    display: none;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+.adjust-nav {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(252, 248, 248);
+    transition-duration: 10s;
+    z-index: 1;
+}
+#adjust-nav-closs {
+    width: 40px;
+    height: 40px;
+}
+#adjust-nav-closs img {
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: multiply;
+}
+.adjust-nav-main-container {
+    margin-left: 10px;
+}
+.adjust-nav-main-container p {
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 30px;
+}
+
+
+.hero-section {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    position: relative;
+  }
+  
+  .hero-image {
+    height: 90vh; 
+    width: 100%; 
+    object-fit: cover; 
+    
+  }
+  
+  .hero-section button {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: white; 
+    width: 25%;
+    padding: 10px 5px 10px 5px;
+    font-size: larger;
+    font-weight:800;
+    background: linear-gradient( to right,black, gray);
+  }
+
+  .content-upper {
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content-info {
+    padding: 20px;
+    text-align: center;
+    width: 30.33%;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgba(250, 247, 247, 0.692);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 30px;
+    text-align: left;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(250, 247, 247, 0.692);
+    text-align: center;
+    
+}
+
+.second-section h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 50px; 
+    text-align: left;
+    padding-left: 80px;
+}
+
+.content-lower {
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 50px ;
+}
+
+.column-1 {
+    margin-top: 30px;
+    padding: 30px;
+    width: 33.33%;
+    text-align: left;
+}
+
+.column-2 {
+    margin-top: 30px;
+    padding: 30px;
+    width: 33.33%;
+    text-align: center;
+}
+
+.column-3 {
+    margin-top: 30px;
+    padding: 30px;
+    width: 33.33%;
+    text-align: right;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+p {
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.second-section button {
+    margin-top: 20px;
+    background-color: rgb(18, 17, 17);
+    padding: 10px 5px;
+    width: 50%;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .centerside p {
+        font-size: 15px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+      
+      .hero-section button {
+        padding: 10px 5px 10px 5px;
+        font-size: larger;
+        font-weight:800;
+      }
+      
+}
+
+/* @media only screen and (max-width: 630px) {
+    .centerside p {
+        font-size: 13px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+} */
+
+@media only screen and (max-width: 576px) {
+    .centerside {
+        display: none;
+    }
+    .nav-icon {
+        display: block;
+    }
+    .nav-icon img {
+        display: block;
+    }
+
+    
+      .hero-section button {
+           width: 50%;
+            padding: 8px 5px 8px 5px;
+            font-size: larger;
+            font-weight:600;
+      }
+
+      .content-upper {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .content-info {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+    .second-section h1 {
+        font-size: x-large;
+        font-weight: 900;
+        margin-top: 50px; 
+        text-align: center;
+        padding-left: 0;
+       
+    }
+    
+    .content-lower {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px 50px ;
+    }
+    
+    .column-1, .column-2, .column-3 {
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+   
+    h2 {
+        margin-top: 20px;
+        font-size: larger;
+        font-weight:600;
+    }
+    
+    p {
+        margin-top: 10px;
+        font-size: larger;
+    }
+    
+    .second-section button {
+        padding: 5px 5px;
+    }
+    
+}
