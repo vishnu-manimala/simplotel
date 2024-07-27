@@ -221,7 +221,7 @@ body {
 .column-1, .column-2, .column-3 img{
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    object-fit: conatin;
 }
 
 h2 {
