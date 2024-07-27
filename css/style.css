@@ -277,15 +277,7 @@ a {
         font-size: larger;
         font-weight:800;
       }
-    .content-lower {
-    display: grid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items:center;
-    padding: 10px 50px ;
-}
-      
+  
 }
 
 
