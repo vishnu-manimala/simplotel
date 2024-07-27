@@ -135,6 +135,7 @@ body {
     font-size: larger;
     font-weight:800;
     background: linear-gradient( to right,black, gray);
+    border: none;
   }
 
   .content-upper {
