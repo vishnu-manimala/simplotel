@@ -223,21 +223,24 @@ body {
     text-align: right;
 }
 
-/* .column-1 img{
+.column-1 img{
+    padding:5px;
     width: 300px;
     height: 300px;
     object-fit: contain;
 }
 .column-2 img{
+     padding:5px;
     width: 300px;
     height: 300px;
     object-fit: contain;
 }
 .column-3 img{
+     padding:5px;
     width: 300px;
     height: 300px;
     object-fit: contain;
-} */
+}
 
 h2 {
     margin-top: 20px;
