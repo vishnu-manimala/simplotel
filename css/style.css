@@ -220,6 +220,10 @@ body {
     text-align: right;
 }
 
+.column-1, .column-2, .column-3 img{
+    object-fit: cover;
+}
+
 h2 {
     margin-top: 20px;
     font-size: larger;
@@ -236,6 +240,7 @@ p {
     background-color: rgb(18, 17, 17);
     padding: 10px 5px;
     width: 50%;
+    border: none;
     color: white;
 }
 
